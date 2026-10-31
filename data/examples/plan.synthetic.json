@@ -1,0 +1,46 @@
+{
+  "synthetic": true,
+  "description": "僅供資料結構示例，不對應真實路線或現況",
+  "plan_id": "example-001",
+  "version": 1,
+  "route_id": "synthetic-route",
+  "departure_date": null,
+  "timezone": "Asia/Taipei",
+  "members": [
+    {
+      "id": "member-1",
+      "experience": "beginner"
+    }
+  ],
+  "segments": [
+    {
+      "from": "A",
+      "to": "B",
+      "distance_km": 3,
+      "ascent_m": 400,
+      "descent_m": 0,
+      "terrain": "synthetic",
+      "rest_minutes": 20
+    }
+  ],
+  "equipment": [
+    {
+      "name": "headlamp",
+      "scope": "individual",
+      "quantity": null,
+      "operational": null
+    }
+  ],
+  "food": {
+    "details": null
+  },
+  "water": {
+    "carried_liters": null,
+    "refill_evidence_ids": []
+  },
+  "camp": null,
+  "turnaround_conditions": null,
+  "contact_plan": {
+    "provided": false
+  }
+}
